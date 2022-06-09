@@ -1,0 +1,13 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.searchBar{
+    border: none;
+    background-color: #3B4856;
+    outline: none;
+    color: #eee;
+}
