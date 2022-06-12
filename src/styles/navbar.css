@@ -14,4 +14,20 @@
 }
 .searchBar::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #eee;
-  }
+}
+
+.searchDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchDiv button{
+    outline: none;
+    border: none;
+    height: 100%;
+    background: #60768d;
+    color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
