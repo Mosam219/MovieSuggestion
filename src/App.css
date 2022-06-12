@@ -6,4 +6,10 @@
 body{
   background-color: #3B4856;
   color: #eee;
+  width: 100vw;
+  -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }

@@ -1,0 +1,10 @@
+.moviecard{
+    margin: 1rem 2rem;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.cardimg{
+    height: 20rem;
+    width: 15rem;
+}
