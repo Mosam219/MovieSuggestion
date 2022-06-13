@@ -1,6 +1,7 @@
 import React from "react";
 import MovieCard from "./moviecard";
 import "../styles/movieList.css";
+import NoMoviesFound from "./nomovies";
 export default function movieList({ movies, isLoading }) {
   return (
     <div className="movieList">
@@ -16,9 +17,9 @@ export default function movieList({ movies, isLoading }) {
           </div>
         </div>
       )}
-      {movies.map((movie) => (
-        <MovieCard key={movie.imdbID} movie={movie} />
-      ))}
+      {movies.length
+        ? movies.map((movie) => <MovieCard key={movie.imdbID} movie={movie} />)
+        : !isLoading && <NoMoviesFound />}
     </div>
   );
 }
