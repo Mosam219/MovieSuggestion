@@ -1,16 +1,24 @@
-.moviecard{
-    margin: 1rem 2rem;
-    width: 15rem;
-    overflow: hidden;
-    cursor: pointer;
+.moviecard {
+  margin: 1rem 2rem;
+  width: 15rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.cardimg{
-    height: 20rem;
-    width: 15rem;
+.link,
+.link:hover,
+.link:focus,
+.link:active {
+  text-decoration: none;
+  color: inherit;
 }
 
-.footerCard{
-    background: #5a6f84;
-    padding: 10px;
+.cardimg {
+  height: 20rem;
+  width: 15rem;
+}
+
+.footerCard {
+  background: #5a6f84;
+  padding: 10px;
 }

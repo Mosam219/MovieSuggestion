@@ -1,14 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #3B4856;
+body {
+  background-color: #3b4856;
   color: #eee;
   width: 100vw;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  text-decoration: none;
 }
 body::-webkit-scrollbar {
   display: none;
